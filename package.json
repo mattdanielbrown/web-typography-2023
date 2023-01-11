@@ -1,0 +1,29 @@
+{
+  "name": "web-typography-2023",
+  "version": "0.0.1",
+  "description": "Responsive, accessible, legible web typography in 2023.",
+  "license": "MIT",
+  "author": "Matt Daniel Brown",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "2.8.2",
+    "@parcel/transformer-sass": "2.8.2",
+    "@parcel/transformer-webmanifest": "2.8.2",
+    "parcel": "^2.8.2",
+    "postcss": "^8.4.21",
+    "sass": "^1.57.1"
+  },
+  "dependencies": {
+    "bourbon": "^7.2.0",
+    "inter-ui": "^3.19.3",
+    "mobi.css": "^3.1.1",
+    "modern-normalize": "^1.1.0",
+    "reseter.css": "^2.0.0",
+    "sanitize.css": "^13.0.0"
+  }
+}
